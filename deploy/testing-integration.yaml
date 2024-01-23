@@ -89,7 +89,7 @@ objects:
           resources:
             limits:
               cpu: "1"
-              memory: 1.5Gi
+              memory: 512Mi
             requests:
               cpu: 250m
               memory: 512Mi
@@ -105,10 +105,10 @@ objects:
           resources:
             limits:
               cpu: 500m
-              memory: 2Gi
+              memory: 512Mi
             requests:
               cpu: 100m
-              memory: 256Mi
+              memory: 512Mi
           volumeMounts:
             - name: sel-shm
               mountPath: /dev/shm
